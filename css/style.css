@@ -116,11 +116,16 @@ a {
 
 /* Section1 */
 .hero {
+    padding-top: 188px;
+    padding-bottom: 292px;
+    align-items:center;
     background-color: #2e2f42;
 }
 
 
 .hero-title {
+        width: 496px;
+        margin: 0 auto;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -130,7 +135,7 @@ a {
 }
 
 /* button */
-
+ 
 button:focus {
     background-color: #404bbf;
 }
@@ -140,6 +145,7 @@ button:hover {
 }
 
 .button-name {
+
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
