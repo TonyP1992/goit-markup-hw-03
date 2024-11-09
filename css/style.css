@@ -116,9 +116,11 @@ a {
 
 /* Section1 */
 .hero {
+    display: flex;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
     align-items:center;
+    text-align: center;
     background-color: #2e2f42;
 }
 
@@ -126,6 +128,7 @@ a {
 .hero-title {
         width: 496px;
         margin: 0 auto;
+        padding-bottom: 48px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -135,7 +138,7 @@ a {
 }
 
 /* button */
- 
+
 button:focus {
     background-color: #404bbf;
 }
@@ -145,7 +148,13 @@ button:hover {
 }
 
 .button-name {
-
+        
+        display: inline-flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 4px;
+        width: 169px;
+        height: 56px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
