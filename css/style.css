@@ -173,6 +173,11 @@ button:hover {
     padding: 120px 0;
 }
 
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
 .list-benefits{
     display: flex;
     gap: 24px;
