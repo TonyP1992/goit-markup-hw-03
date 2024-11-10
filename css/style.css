@@ -263,7 +263,18 @@ button:hover {
 
 /* Section 4 */
 
-.portfolio {
+.our-portfolio {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.portfolio-list {
+        display: flex;
+        justify-content: center;
+}
+
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
