@@ -28,6 +28,7 @@ a {
     margin: 0 auto;
 }
 
+
 /* header */
 
 .page-header {
@@ -42,10 +43,11 @@ a {
 .header-nav{
     display: flex;
     align-items:center;
+    
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -56,7 +58,7 @@ a {
 
 .header-logo {
     padding: 24px 0;
-    margin: 76px;
+    margin: 76px; 
 }
 
 .header-logo .logo-part {
@@ -76,6 +78,7 @@ a {
 .nav-link {
         display: block;
         padding: 24px 0;
+        gap: 40px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -166,7 +169,25 @@ button:hover {
 }
 
 /* Section2 */
+
 .benefits {
+    padding: 120px 0;
+}
+
+.list-benefits{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  
+      
+}
+
+.benefits-item {
+    width: 264px;
+}
+
+.benefits-subtitle {
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -176,6 +197,7 @@ button:hover {
 
 .benefits-p
  {
+        padding-top: 8px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -187,8 +209,19 @@ button:hover {
 /*  Section 3 */
 
 .team {
+    padding: 120px 0;
     background: #f4f4fd;
+   
 }
+
+.list-team{
+    display:flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 72px;
+   
+}
+
 .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -199,11 +232,18 @@ button:hover {
         text-transform: capitalize;
 }
 
-.list-team {
-    background-color: #FFFFFF;
+.team-item {
+        background-color: #FFFFFF;
+  
 }
- 
+
+.card {
+        justify-content: center;
+        padding: 32px 16px;
+}
+
 .h-team {
+        padding-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
