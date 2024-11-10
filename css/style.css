@@ -28,6 +28,10 @@ a {
     margin: 0 auto;
 }
 
+img {
+display: block
+}
+
 
 /* header */
 
@@ -152,7 +156,7 @@ button:hover {
 }
 
 .button-name {
-        
+        margin: 0 auto;
         display: block;
         min-width: 169px;
         border-radius: 4px;
