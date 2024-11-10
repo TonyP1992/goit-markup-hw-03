@@ -58,7 +58,8 @@ a {
 
 .header-logo {
     padding: 24px 0;
-    margin: 76px; 
+    margin-right: 76px; 
+    gap: :40px;
 }
 
 .header-logo .logo-part {
@@ -321,4 +322,14 @@ button:hover {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+}
+
+.page-footer {
+    padding: 100px 0;
+}
+
+.footer-section {
+    
+    width: 264px;
+    
 }
