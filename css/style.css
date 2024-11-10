@@ -287,6 +287,7 @@ button:hover {
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
+        row-gap: 48px;
         justify-content: center;
 }
 
@@ -300,9 +301,10 @@ button:hover {
 }
 
 .portfolio-card {
-    padding-top: 32px;
-    padding-bottom: 64px;
-    padding-left: 16px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    
 }
 
 
@@ -318,7 +320,7 @@ button:hover {
 }
 
 .h-portfolio {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
