@@ -70,7 +70,7 @@ display: block
     color: #2e2f42;
 }
 
-.footer-logo .logo-part {
+.logo-part {
     color: #F4F4FD;
 }
 
@@ -352,7 +352,7 @@ button:hover {
     padding: 100px 0;
 }
 
-.logo-link {
+.logo {
     display: inline-block;
     margin-bottom: 16px;
 }
