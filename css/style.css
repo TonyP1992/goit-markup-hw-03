@@ -63,7 +63,7 @@ display: block
 .header-logo {
     padding: 24px 0;
     margin-right: 76px; 
-    gap: :40px;
+    
 }
 
 .header-logo .logo-part {
@@ -123,11 +123,10 @@ display: block
 }
 
 /* Section1 */
+
 .hero {
-    display: flex;
     padding-top: 188px;
     padding-bottom: 188px;
-    align-items:center;
     text-align: center;
     background-color: #2e2f42;
 }
@@ -136,7 +135,7 @@ display: block
 .hero-title {
         max-width: 496px;
         margin: 0 auto;
-        padding-bottom: 48px;
+        margin-bottom: 48px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -201,7 +200,7 @@ button:hover {
 }
 
 .benefits-item {
-    width: 264px;
+    width:calc((100% - 72px) / 4);
 }
 
 .benefits-subtitle {
@@ -215,7 +214,6 @@ button:hover {
 
 .benefits-p
  {
-        padding-top: 8px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -236,7 +234,6 @@ button:hover {
     display:flex;
     gap: 24px;
     justify-content: center;
-    padding-top: 72px;
    
 }
 
@@ -254,11 +251,11 @@ button:hover {
 .team-item {
         background-color: #FFFFFF;
         border-radius: 0px 0px 4px 4px;
+        width: calc((100% - 72px) / 4);
   
 }
 
 .card {
-        justify-content: center;
         padding: 32px 0;
 }
 
@@ -296,8 +293,7 @@ button:hover {
 }
 
 .portfolio-item {
-    margin-bottom: 48px;
-    width: ((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -352,7 +348,8 @@ button:hover {
     padding: 100px 0;
 }
 
-.logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+    color: #4d5ae5;
 }
